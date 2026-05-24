@@ -6,7 +6,9 @@ metadata:
     app: employee-app
 
 spec:
-  replicas: 2
+  replicas: 1
+  strategt:
+   type: Recreate
   selector:
     matchLabels:
       app: employee-app
